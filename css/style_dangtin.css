@@ -1,0 +1,159 @@
+.logo {
+    width: 200px;
+    padding-top: 9px;
+}
+
+.noidung {
+    max-width: 100%;
+    height: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    background-size: contain;
+}
+
+.chuyentrang {
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+#ct-text {
+    color: black;
+    font-size: 15px;
+}
+
+.dieuhuong {
+    color: white;
+    height: 44px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dh {
+    padding: 10px;
+    position: relative;
+    margin-left: 40%;
+    text-decoration: none;
+    vertical-align: -3px;
+    font-size: 40px;
+    background-color: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+.form_info {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.form_product {
+    padding: 40px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    color: white;
+}
+
+.form_info1 {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.form_info2 {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.title_form {
+    font-size: 16px;
+}
+
+button {
+    border-radius: 5px;
+    background: rgb(255, 0, 0);
+    border: 0;
+    padding: 10px 35px;
+    color: #ffffff;
+    transition: 0.4s;
+    border-radius: 10px;
+    font-size: 15px
+}
+
+h4 {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.option {
+    font-size: 14px;
+}
+
+#quydinh {
+    color: blue;
+    font-size: 15px;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#tt {
+    margin-top: -20px;
+    background-color: rgb(21, 189, 91);
+    border-radius: 10px;
+}
+
+#tt-text {
+    font-size: 20px;
+}
+
+#tt-text1 {
+    font-size: 17px;
+}
+
+.anh {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tieude1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.gia {
+    color: blue;
+    font-size: 25px;
+}
+
+span.super {
+    vertical-align: super;
+}

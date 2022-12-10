@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/BDS.css">
+
+    <title>CHINH SỬA TIN</title>
+    <link rel="shortcut icon" href="https://assets.reastatic.net/realestate.com.au/favicon.ico">
+    <link rel="stylesheet" href="css/style_dangtin.css">
+</head>
+
+<style>
+    body {
+        color: rgb(0, 0, 0);
+        font-family: "Playfair Display", serif;
+    }
+    main {
+        
+        background-image: url(./images/web_winter_lrg-f24c1c214c382225e3cc.webp);
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+
+    <div class=" container-fluid ">
+        <nav class="row navbar navbar-expand-sm bg-action mt-3 ">
+            <div class="col-sm-4 container-fluid">
+                <a class="navbar-brand" href="./BDS.html">
+                    <img class="logo" src="./images/250-2509975_realestate-com-au-realestate-com-au-logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="col-sm-4 container-fluid ">
+                <ul class="h3 navbar-nav">
+                    <li class="h3 nav-item">
+                        <a class="nav-link active " href="./gioithieu.html">Giới Thiệu</a>
+                    </li>
+                    <li class="h3 nav-item">
+                        <a class="nav-link active" href="./bietthu.html">Mua</a>
+                    </li>
+                    <li class="h3 nav-item">
+                        <a class="nav-link active " href="./sanpham.html">Sản Phẩm</a>
+                    </li>
+                    <li class="h3 nav-item">
+                        <a class="nav-link active " href="dangtin.html">Đăng Tin</a>
+                    </li>
+                    <li class="h3 nav-item">
+                        <a class="nav-link active " href="./tintuc.html">Tin Tức</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./lienhe.html">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-box col-sm-4 container-fluid navbar-navs">
+                <a href="./dangnhap.html" id="btn" class=" btn-danger btn-lg">Sign in</a>
+                <span class="user-icon"></span>
+            </div>
+        </nav>
+    </div>
+
+    <main class="container">
+
+        <div class="dieuhuong row">
+            <div class="col dh">
+                CHỈNH SỬA TIN
+            </div>
+        </div>
+
+        <br>
+
+        <div class="noidung ">
+            <div class="row mt-5 ">
+                <form action="tindadang.html">
+                    <div class="col-lg-6 mt-6 form_info ">
+                        <h2><b>Thông tin cá nhân</b></h2>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Họ và tên: </label>
+                            <input type="text " name="name " id="name " class="form-control " required placeholder="Nguyễn Văn A">
+                        </div>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Số điện thoại: </label>
+                            <input type="text " name="number " id="number " class="form-control " required placeholder="0123456789">
+                        </div>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Địa chỉ: </label>
+                            <input type="text " name="address " id="address " class="form-control " required placeholder="112/54, hẻm 112, đường 3/2, Q.Ninh Kiều, TP.Cần Thơ">
+                        </div>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Email: </label>
+                            <input type="text " name="eaddress " id="eaddress " class="form-control " required placeholder="tamb1909980@student.ctu.edu.vn">
+                        </div>
+                        <hr> <br> <br>
+                        <div class="mt-3 form-group ">
+                            <input type="checkbox" name="accept " id="accept ">
+                            <label for=" " required>
+                                <h4><b>Tôi đã đọc và chấp nhận với các Quy định</b></h4>
+                            </label>
+                        </div>
+                        <div id="quydinh">
+                            <a href="quydinh.html">Quy định đăng tin</a>
+                        </div>
+                        <div class="mt-3 form-group text-center ">
+                            <button type="submit ">XÁC NHẬN SỬA </button>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6 mt-6 form_product ">
+                        <h2><b>Thông tin sản phẩm</b></h2>
+                        <div class="mt-3 form-group row ">
+                            <div class="col-lg-4 ">
+                                <label class="title_form ">Loại bất động sản: </label>
+                            </div>
+                            <div class="col-lg-3 ">
+                                <input type="radio" id="bt" name="bds" value="bt" checked="option">
+                                <label class="option ">Biệt thự</label>
+                            </div>
+                            <div class="col-lg-3 " style="float:left ">
+                                <input type="radio" id="ch " name="bds" value="ch ">
+                                <label class="option ">Căn hộ</label>
+                            </div>
+                        </div>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Địa chỉ biệt thự/căn hộ: </label>
+                            <input type="text " name="name_product " id="name_product " class="form-control " required placeholder="Khu Biệt Thự nhóm 10, đường Hòa Bình, Q.Cái Răng, TP.Cần Thơ">
+                        </div>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Diện tích: ( m<span class="super">2</span> )</label>
+                            <input type="text " name="area " id="area " class="form-control " required placeholder="120">
+                        </div>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Mức giá: </label>
+                            <input type="text " name="price " id="price " class="form-control " required placeholder="6.000.000.000 VND ">
+                        </div>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Mô tả: </label>
+                            <textarea name="detail " id="detail " cols="30 " rows="5 " class="form-control "></textarea>
+                        </div>
+                        <div class="mt-3 form-group ">
+                            <label class="title_form ">Hình ảnh/Video: <input type="file" name="file "
+                                    id="file "></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="mt-5 p-4 bg-dark text-white text-center ">
+        <p>Copyright &copy; by NHOM8</p>
+    </div>
+    <div id="loader-wrapper ">
+        <div id="loader "></div>
+        <div class="loader-section section-left "></div>
+        <div class="loader-section section-right "></div>
+    </div>
+    <script src="./js/Vadilator.js"></script>
+
+</body>
+
+</html>

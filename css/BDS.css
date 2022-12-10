@@ -1,0 +1,101 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .logo{
+    width: 200px;
+    padding-top: 9px;
+  }
+ .background-img{
+   width: 100%;
+
+
+ } 
+ .header{
+  position: fixed;
+ }
+ .text-backround{
+  text-align: center;
+  width: 99%;
+ }
+  .center {
+  position: absolute;
+  top: 50%;
+
+  /* width: 100%; */
+  text-align: center;
+  font-size: 1vw;
+  }
+  .title-img{
+      width: 100%;
+      height: 500px;
+  }
+  #btn{
+    text-decoration: none;
+  }
+  .user{
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    top: 10px;
+    left: 8px;
+    color: rgb(93, 88, 88);
+    border-radius: 50px;
+    position: relative;
+  }
+  .user:hover{
+    color: rgb(186, 181, 181);
+  }
+  .user:hover .profile{
+    display: block;
+
+  }
+  .user:hover .logout{
+    display: block;
+
+  }
+  .logout{
+    display: none;
+    top: 48px;
+    left:  -7px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 5px;
+    color: black;
+    padding: 10px 19px;
+    
+    margin-top: 10px;
+    border: 0.5px solid#ccc;
+    background-color:  #fff;
+
+  }
+  .logout:hover{
+    text-decoration: none;
+    color: black;
+    background-color:  rgb(186, 181, 181);
+
+  }
+  .profile{
+    display: none;
+    top: 30px;
+    left:  -7px;
+    font-style: italic;
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: black;
+    border: 0.5px solid#ccc;
+    background-color: #Ffff;
+  }
+  .profile:hover{
+    text-decoration: none;
+    color: black;
+    background-color:  rgb(186, 181, 181);
+
+  }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="https://assets.reastatic.net/realestate.com.au/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Đăng Ký</title>
+</head>
+<body>
+    <form id="form1" action="./dangnhap.html">
+        <div class="register">
+            <div class="title-big">
+            <p><a href="./BDS.html" class="text-decoration-none">
+                <img src="./images/icon.ico" alt="" height="26px" width="26px"> realestate.com.vn
+            </a></p>
+            <h1 class='title'> <b>ĐĂNG KÝ</b> </h1>
+            </div>
+            <div class="form-group">
+                <label for="fullname"><p>Tên đầy đủ</p></label>
+                <input id="fullname" type="text"  placeholder="Vui lòng nhập họ tên" >
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="email"><p>Email</p></label>       
+                <input id="email" type="text" class="emailInput" placeholder="VD: email@domain.com" >
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="password"><p>Mật Khẩu</p></label>
+                <input id="password" type="password" class="pwInput" placeholder="Tối thiểu 8 chứa kí tự" >
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px; ">
+                <label for="confirm-password"><p>Nhập lại mật khẩu </p> </label>            
+                <input id="confirm-password" type="password"  placeholder="Nhập lại nhập mật khẩu" >
+                <span class="form-message"></span>
+            </div>
+            <!-- <p>Thông qua việc tạo tài khoản, bạn đồng ý với <a href="#">Điều khoảng & Quyền riêng tư của chúng tôi.</a></p> -->
+             <p class="check"><input  type="checkbox" > Đồng ý điều khoản chúng tôi</p> 
+             <button class="form-submit">Đăng ký</button>
+            <p class="dacotk">Đã có tài khoản ? <a href="./dangnhap.html">Đăng nhập</a></p>    
+        </div>
+        <div class="icon-social">
+            <a href="#" class="google" style="color: black";><img width="35px" height="35px" src="https://img.icons8.com/color/48/null/google-logo.png" "/> Google</a>
+            <a href="#" ><i class="facebook fa-brands fa-facebook"></i> Facebook</a>
+            <a href="#" ><i class="ap fa-brands fa-apple" style="color: black;"> Apple</i></a>
+        </div>
+    </form>
+    
+    
+    <script src="./js/Vadilator.js"></script>
+
+    <script>
+        Vadilator({
+            errorSelector: '.form-message',
+            form: '#form1',
+            rules:[
+                Vadilator.isRequired('#fullname'),
+                Vadilator.isEmail('#email'),
+                Vadilator.minLength('#password', 8, 'Mật khẩu viết hoa, thường và số'),
+                Vadilator.isConfirmed('#confirm-password', function() { 
+                    return document.querySelector('#form1 #password').value;
+                }, 'Mật khẩu nhập lại không chính xác'),
+            ]
+        });
+    </script>
+</body>
+</html>

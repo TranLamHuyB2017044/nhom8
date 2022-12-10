@@ -1,0 +1,361 @@
+body {
+    background-color: aliceblue1;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 13px;
+}
+
+.main {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.logo {
+    width: 200px;
+    padding-top: 9px;
+}
+
+.banner-wrapper {
+    max-width: 100%;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-image: url(../images/web_winter_lrg-f24c1c214c382225e3cc.webp);
+    background-size: contain;
+}
+
+.pagewrapper {
+    max-width: 100%;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.banner {
+    padding-top: 180px;
+}
+
+.banner-text {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+}
+
+select {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=text] {
+    width: 380px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=submit] {
+    width: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #2ea9a9;
+    border: 2px solid #ccc;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    border-radius: 16px;
+}
+
+.searchandfilter input[type=text],
+.searchandfilter select {
+    height: 50px;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #343e44;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+}
+
+.pagecontent {
+    max-width: 100%;
+    height: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.polaroid {
+    border-radius: 25px;
+    width: 100%;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.overlay {
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    font-size: 14px;
+}
+
+.overlay:link {
+    background: none;
+}
+
+.container:hover .overlay {
+    height: 100%;
+    background-color: rgba(0, 51, 139, 0.485);
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    font-size: 18px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.title {
+    grid-area: title;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+a.name:link {
+    text-decoration: none;
+}
+
+a.name:visited {
+    color: #347edf;
+    text-decoration: none;
+}
+
+a.name:hover {
+    color: #ff0000;
+}
+
+.title2 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #161414;
+}
+
+a.title2:link {
+    text-decoration: none;
+}
+
+a.title2:visited {
+    color: #161414;
+    text-decoration: none;
+}
+
+a.title2:hover {
+    color: #347edf;
+}
+
+.thong-tin-du-an {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.thong-tin-du-an,
+.dia-chi,
+.phong-ngu,
+.phong-tam .dien-tich {
+    margin-bottom: 5px;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.fa-map-marker {
+    color: #ff0000;
+    width: 30px;
+}
+
+.fa-bath,
+.fa-bed,
+.fa-expand-arrows-alt {
+    color: #347edf;
+    width: 30px;
+}
+
+.fa-map-pin {
+    color: #347edf;
+}
+
+.bds2 {
+    padding-top: 15px;
+    border-top: solid 1px #ebebeb;
+}
+
+.price-wrapper {
+    margin-top: 10px;
+    float: left;
+    display: inline-block;
+}
+
+.price {
+    text-align: left;
+    font-size: 25px;
+    color: #347edf;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.button {
+    border-radius: 12px;
+    border: 5px dashed #347edf;
+    color: #347edf;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nut-xem-ngay {
+    float: right;
+    display: inline-block;
+}
+
+.nut-xem-ngay:hover {
+    background-color: #347edf;
+    color: white;
+    border: 5px dashed #347edf;
+}
+
+.side-bar {
+    border-radius: 25px;
+    width: 100%;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.danh-muc {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-group-item {
+    font-size: 18px;
+}
+
+.fa-angle-right {
+    color: #347edf;
+    font-weight: bold;
+}
+
+.list-group-item:hover {
+    font-weight: bold;
+}
+
+.sp {
+    border-radius: 25px;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.avata {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.thong-tin-lien-he {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ho-ten {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff0000;
+}
+
+.nut-lien-he {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #2ea9a9;
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+    border-color: #2ea9a9;
+}
+
+.nut-lien-he:hover {
+    background-color: #ff0000;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}

@@ -1,0 +1,308 @@
+/* Phan dung chung */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: hsl(0, 0%, 80%);
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    background: url(https://argonaut.au.reastatic.net/resi-property/prod/homepage-web/web_winter_lrg-f24c1c214c382225e3cc.webp) no-repeat;
+    background-size: cover;
+
+}
+
+
+.form-submit{
+    text-align: center;
+    border: 1px solid #0000;
+    height: 43px;
+    width: 400px;
+    border-radius: 8px;
+    background:red;
+    color: #ffff;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.form-submit:hover{
+    background-color: rgb(175, 44, 44);
+    color: #ffff;
+}
+
+.title-big{
+    text-align: center;
+    position: relative;
+    left: 70px;
+}
+.title{
+    margin-top: 8px;
+    font-size: 24px;
+}
+.form-group.invalid #fullname{
+    border-color: #f33a58;
+}
+.form-group.invalid #password{
+    border-color: #f33a58;
+}
+.form-group.invalid #confirm-password{
+    border-color: #f33a58;
+    
+}
+.form-group.invalid #email{
+    border-color: #f33a58;
+}  
+  
+  
+  .form-group.invalid .form-message {
+    color: #f33a58;
+  }
+  
+  .form-message {
+    font-size: 15px;
+    /* padding: 4px 0 0; */
+    height: 20px;
+  }
+  .form-group{
+    margin-top: 25px;
+    height: 70px;
+}  
+
+
+/* trang dang ky */
+
+#form1{
+    border-radius: 10px;
+    width: 500px;
+    height: 713px;
+    background-color: #f6f5f7;
+    border: 0.5 solid #f6f5f7;
+    text-shadow: #000;
+}
+
+#form1 .register{
+    width: 300px;
+    height: 550px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px;
+    padding-right: 30px;
+    margin-left: 35px; 
+    /* margin-top: -10px; */
+    
+
+}
+#form1 .register p{
+    margin-bottom: 0;
+    /* margin-top: 8px; */
+    font-size: 18px;
+}
+
+
+#form1 input[type = "text"]{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 48px;
+    width: 400px;
+    margin-bottom: -2px;
+    
+}
+
+#form1 input[type = "password"]{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 48px;
+    width: 400px;
+    margin-bottom: -2px;
+
+}
+#form1 input[type = "checkbox"]{
+   cursor: pointer;
+   margin-top: 10px;
+
+}
+
+
+
+#form1 input[type = "password"]:hover {
+    border-color: #1dbfaf;
+}
+
+#form1 input[type = "text"]:hover {
+    border-color: #1dbfaf;
+}
+.dacotk{
+    position: relative;
+    left: 27%;
+    top: 10px;
+}
+.dacotk a{
+    text-decoration: none;
+    
+}
+
+.icon-social{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    font-size: 23px;
+}
+
+.icon-social a{
+    text-decoration: none;
+    
+}
+
+.icon-social .facebook{
+    color: #0000FF;
+}
+/* trang đăng nhập */
+
+#form2{
+    border-radius: 10px;
+    width: 500px;
+    height: 713px;
+    background-color: #f6f5f7;
+    border: 0.5 solid #f6f5f7;
+    text-shadow: #000;
+}
+
+#form2 .sign-in{
+    width: 300px;
+    height: 500px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px;
+    padding-right: 30px;
+    margin-left: 35px; 
+    margin-top: -10px;
+
+}
+#form2 .sign-in p{
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+
+#form2 input[type = "text"]{
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 80%);
+    height: 48px;
+    width: 400px;
+    
+}
+#form2 input[type = "password"]{
+    border-radius: 5px;
+    border:1px solid  hsl(0, 0%, 80%);
+    height: 48px;
+    width: 400px;
+
+}
+#form2 .form-group{
+    margin-top: 26px;
+    position: relative;
+}
+#form2 input[type = "password"]:hover {
+    border-color: #1dbfaf;
+}
+
+#form2 input[type = "text"]:hover {
+    border-color: #1dbfaf;
+}
+  
+.icon{
+    margin-top: -30px;
+    margin-left: 54px;
+}
+#form2 .check{
+    margin-top: 44px;
+    cursor: pointer;
+}
+.icon a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon .gg{
+    margin-top: 12px;
+    padding: 8px;
+    color: black;
+    border: 1px solid #ccc;
+    display: block;
+    border-radius: 10px;
+    font-size: 22px;
+    width: 400px;
+}
+
+.icon .fb{
+    color: #f6f5f7;
+    margin-top: 12px;
+    display: block;
+    font-size: 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    display: block;
+    border-radius: 10px;
+    font-size: 22px;
+    width: 400px;
+    background-color: #0000FF;
+}
+
+.icon .apple{
+    margin-top: 12px;
+    padding: 8px;
+    background-color: #000;
+    color: white;
+    border: 1px solid #ccc;
+    display: block;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 400px;
+    display: block;
+    font-size: 22px;
+}
+
+
+
+
+.icon .gg:hover{
+    opacity: 0.8;
+}
+
+
+.icon .fb:hover{
+    opacity: 0.8;
+}
+.icon .apple:hover{
+    opacity: 0.8;
+}
+
+.eye-open{
+    position: absolute;
+    width: 25px;
+    left: 355px;
+    top: 56px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.eye-close{
+    position: absolute;
+    width: 25px;
+    left: 355px;
+    top: 56px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.hidden{
+    display: none;
+}
+
